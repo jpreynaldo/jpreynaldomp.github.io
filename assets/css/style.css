@@ -1,0 +1,328 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+body {
+  background-color: #F6F6F6;
+}
+
+.nav-bar {
+  padding: 2% 10% 2% 10%;
+  overflow: hidden;
+  z-index: 999999999;
+  font-size: 22px;
+  position: relative;
+}
+
+.nav-bar .nav-link {
+  color: #0984E3;
+  text-decoration: none;
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  cursor: pointer;
+}
+
+.nav-bar .topnav-right {
+  float: right;
+}
+
+.nav-bar .topnav-right a {
+  color: #fff !important;
+}
+
+.font-weight-bold {
+  font-weight: bold;
+}
+
+.btn {
+  border: 2px solid #000;
+  background-color: #F6F6F6;
+  color: #000;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+.btn-blue-outline {
+  border-color: #0984E3;
+  color: #2D3436;
+}
+
+.btn-blue-outline:hover {
+  background-color: #0984E3;
+  color: #fff;
+}
+
+.btn-green {
+  background-color: #38ada9;
+  border-color: #38ada9;
+  color: #fff;
+}
+
+.btn-green:hover {
+  background-color: #079992;
+  border-color: #079992;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-title {
+  font-size: 50px;
+}
+
+.content {
+  height: 100vh;
+  background-image: url("../images/home-design.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -136px;
+}
+
+.content #home {
+  min-height: 100vh;
+  padding: 0 10% 0 10%;
+}
+
+.content #home .home-name {
+  z-index: 9999;
+  width: 35%;
+  float: left;
+  padding: 15em 0 4em 0;
+}
+
+.content #home .home-name .title {
+  font-size: 410%;
+  font-weight: bold;
+  color: #2D3436;
+}
+
+.content #home .home-name .title .surname {
+  margin-top: -11%;
+}
+
+.content #home .home-name .sub-title .st-hello {
+  color: #2D3436;
+}
+
+.content #home .home-name .sub-title .front-end {
+  color: #0984E3;
+}
+
+.content #home .home-name .button-work {
+  margin-top: 10%;
+}
+
+.content #home .home-name .button-work .works {
+  margin-left: 10px;
+}
+
+.content #home .home-image {
+  width: 65%;
+  float: left;
+  padding: 15em 0 0 22em;
+}
+
+.content #home .home-image .home-vector-image {
+  width: 100%;
+}
+
+.content #my-works {
+  min-height: auto;
+  margin-top: 10%;
+  padding: 0 10% 0 10%;
+}
+
+.content #my-works .work-title {
+  font-size: 50px;
+  color: #2D3436;
+}
+
+.content #my-works .works {
+  height: 60vh;
+  margin: 10% 0 0 0;
+}
+
+.content #my-works .works .img-box {
+  width: 60%;
+  float: left;
+}
+
+.content #my-works .works .img-box .work-image {
+  border-radius: 20px;
+  -webkit-box-shadow: 20px 20px #CBE2F3;
+          box-shadow: 20px 20px #CBE2F3;
+  width: 97%;
+}
+
+.content #my-works .works .work-detail {
+  width: 40%;
+  float: left;
+  padding: 5% 0 5% 2%;
+}
+
+.content #my-works .works .work-detail .work-year {
+  color: #6EB5E9;
+}
+
+.content #my-works .works .work-detail .work-name {
+  font-size: 50px;
+  color: #2D3436;
+}
+
+.content #my-works .works .work-detail .view-project {
+  text-decoration: none;
+  color: #2D3436;
+  cursor: pointer;
+  position: relative;
+}
+
+.content #my-works .works .work-detail .view-project::after {
+  content: '';
+  display: block;
+  border-bottom: 3px solid #0884E3;
+  width: 0;
+  position: absolute;
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+}
+
+.content #my-works .works .work-detail .view-project.right::after {
+  right: 0;
+}
+
+.content #my-works .works .work-detail .view-project:hover::after {
+  width: 60%;
+}
+
+.content #my-works .works .work-detail .programming-languages {
+  margin-top: 10px;
+}
+
+.content #my-works .works .work-detail .programming-languages .prog-icon {
+  margin: 5px 0 5px 0;
+  font-size: 30px;
+}
+
+.content #my-works .works .work-detail .programming-languages .html {
+  color: #F16529;
+}
+
+.content #my-works .works .work-detail .programming-languages .sass {
+  color: #CD6799;
+}
+
+.content #my-works .works .work-detail .programming-languages .angular {
+  color: #B52E31;
+}
+
+.content #my-works .works .work-detail .programming-languages .css {
+  color: #2565AE;
+}
+
+.content #my-works .works .work-detail .programming-languages .wordpress {
+  color: #444140;
+}
+
+.content #my-works .works .work-detail .programming-languages .laravel {
+  color: #F05340;
+}
+
+.content #my-works .works .work-detail .detail-right {
+  text-align: right;
+  margin-right: 5% !important;
+}
+
+.content #contact {
+  padding: 5% 10% 0 10%;
+  min-height: auto;
+  background-color: #0984E3;
+  overflow: hidden;
+}
+
+.content #contact .contact-content {
+  padding: 5% 0 5% 0;
+  color: #fff;
+}
+
+.content #contact .contact-content .contact-form {
+  padding: 0 0 3% 2%;
+  width: 50%;
+  float: left;
+}
+
+.content #contact .contact-content .contact-form .note {
+  font-size: 14px;
+  margin-bottom: 1%;
+}
+
+.content #contact .contact-content .contact-form .form-group {
+  padding: 7px 0 7px 0;
+}
+
+.content #contact .contact-content .contact-form .form-group label {
+  font-size: 18px;
+}
+
+.content #contact .contact-content .contact-form .form-group .form-control {
+  width: 100%;
+  height: 45px;
+  font-size: 18px;
+  border: none;
+}
+
+.content #contact .contact-content .contact-form .form-group .form-control:focus {
+  outline: none !important;
+  border: 2px solid #6EB5E9;
+}
+
+.content #contact .contact-content .contact-form .form-group .form-control-text-area {
+  width: 100%;
+  font-size: 18px;
+  border: none;
+  resize: none;
+}
+
+.content #contact .contact-content .contact-form .form-group .form-control-text-area:focus {
+  outline: none !important;
+  border: 2px solid #6EB5E9;
+}
+
+.content #contact .contact-content .contact-additional {
+  padding: 0 2% 3% 0;
+  width: 50%;
+  float: left;
+}
+
+.content #contact .contact-content .contact-additional .contact-subtitle {
+  margin-bottom: 2%;
+}
+
+.content #contact .contact-content .contact-additional .contact-subtitle .convo {
+  margin-bottom: 2%;
+}
+
+.content #contact .contact-content .contact-additional a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  margin: 0 15px 0 0;
+}
+
+.content #footer {
+  width: 100%;
+  background-color: #6EB5E9;
+  padding: 1% 0 1% 0;
+}
+/*# sourceMappingURL=style.css.map */

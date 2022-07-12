@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/jpg" href="assets/images/favicon.ico"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Mini Portfolio</title>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="nav-bar">
+        <i class="fas fa-bars hamburger-icon" id="hamburger-icon"></i>
+        <div class="nav-container">
+            <a  class="nav-link font-weight-bold contact" href="#contact"><i class="far fa-id-badge"></i> Contact Me</a>
+            <div class="topnav-right">
+                <a class="nav-link font-weight-bold" href="https://www.instagram.com/jpaaaaaul/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a class="nav-link font-weight-bold" href="https://twitter.com/jpaulreynaldo" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a class="nav-link font-weight-bold" href="https://www.facebook.com/johnfreakinpaul" target="_blank"><i class="fab fa-facebook-square"></i></a>
+            </div>
+        </div>
+    </nav>
+    <div class="content">
+        <!-- Home Section -->
+        <section id="home">
+            <div class="home-name">
+                
+                <div class="title" data-aos="fade-down" data-aos-once="true">
+                    <h1 class="name">JP</h1>
+                    <h1 class="surname">REYNALDO</h1>
+                </div>
+                <div 
+                class="sub-title" 
+                data-aos="fade-down"
+                data-aos-delay="1000"
+                data-aos-once="true">
+                    <p class="st-hello">Hello, my name is JP Reynaldo, and I am currently working as <span class="front-end">Front-End Web Developer</span></p>
+                </div>
+                <div 
+                class="button-work" 
+                data-aos="fade-down" 
+                data-aos-delay="2000" 
+                data-aos-offset="0"
+                data-aos-once="true">
+                    <a class="btn btn-blue-outline font-weight-bold" id="work-button">
+                        <i class="far fa-hand-point-down"></i>
+                        <span class="works">WORKS</span>
+                    </a>
+                </div>
+            </div>
+            <div class="home-image">
+                <img data-aos="fade-down" data-aos-once="true" class="home-vector-image" src="assets/images/frontend.png" alt="workstation-art">
+             </div>
+        </section>
+        <!-- Works Section -->
+        <section id="my-works">
+            <h1 class="text-center work-title" data-aos="fade-down">MY FEATURED WORKS</h1>
+            <!-- WORK #1: iComply -->
+            <div class="works" id="work-1" data-aos="fade-right">
+                <div class="img-box">
+                    <img class="work-image" src="assets/images/icomply.png" alt="work-icomply">
+                </div>
+                <div class="work-detail">
+                    <p class="work-year">2019</p>
+                    <h1 class="work-name">ICOMPLY</h1>
+                    <h4>
+                        <a class="view-project font-weight-bold" href="https://dashboard.icomply.no" target="_blank">View Project</a>
+                    </h4>
+                    <div class="programming-languages">
+                        <i class="fab fa-html5 prog-icon html"></i>
+                        <i class="fab fa-sass prog-icon sass"></i>
+                        <i class="fab fa-angular prog-icon angular"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- WORK #2: swapps -->
+            <div class="works" id="work-2" data-aos="fade-left">
+                <div class="img-box">
+                    <img class="work-image" src="assets/images/swapps.png" alt="work-icomply">
+                </div>
+                <div class="work-detail">
+                    <p class="work-year">2019</p>
+                    <h1 class="work-name">SWAPPS</h1>
+                    <h4><a class="view-project font-weight-bold" href="https://swapps.no" target="_blank">View Project</a></h4>
+                    <div class="programming-languages">
+                        <i class="fab fa-html5 prog-icon html"></i>
+                        <i class="fab fa-css3-alt prog-icon css"></i>
+                        <i class="fab fa-wordpress prog-icon wordpress"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- WORK #3: xyzmarine.com -->
+            <div class="works" id="work-3" data-aos="fade-right">
+                <div class="img-box">
+                    <img class="work-image" src="assets/images/xyzmarine.png" alt="work-icomply">
+                </div>
+                <div class="work-detail">
+                    <p class="work-year">2018</p>
+                    <h1 class="work-name">XYZMARINE.COM</h1>
+                    <h4>
+                        <a class="view-project font-weight-bold" href="https://www.xyzmarine.com" target="_blank">View Project</a>
+                    </h4>
+                    <div class="programming-languages">
+                        <i class="fab fa-html5 prog-icon html"></i>
+                        <i class="fab fa-css3-alt prog-icon css"></i>
+                        <i class="fab fa-laravel prog-icon laravel"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h1 class="text-center text-white text-title">CONTACT ME</h1>
+            <div class="contact-content">
+                <div class="contact-additional">
+                    <div class="contact-subtitle">
+                        <h2 class="convo">Let's start a converstation</h2>
+                        <p>Want to get in touch? I'd love to hear from you. You can reach me by contacting me through my socials below or send me an email by filling up the form.</p>    
+                    </div>
+                    <a class="nav-link font-weight-bold" href="https://www.instagram.com/jpaaaaaul/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a class="nav-link font-weight-bold" href="https://twitter.com/jpaulreynaldo" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a class="nav-link font-weight-bold" href="https://www.facebook.com/johnfreakinpaul" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                </div>
+                <div class="contact-form">
+                    <p class="note">Please note: all fields are required</p>
+                    <form>
+                        <div class="form-group">
+                            <label for="">First Name</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Last Name</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Email</label>
+                            <input type="email" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Message</label>
+                            <textarea class="form-control-text-area" name="" id="" rows="5"></textarea>
+                        </div>
+                        <button class="btn btn-green font-weight-bold">SEND</button>
+                    </form>
+                </div>
+            </div>
+            
+        </section>
+        <div id="footer">
+            <p class="text-center">2020 - <span id="current-year"></span> JP Reynaldo. All Rights Reserved.</p>
+        </div>
+        
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>    
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
